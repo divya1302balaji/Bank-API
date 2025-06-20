@@ -32,13 +32,12 @@ This project implements a GraphQL API for retrieving information about Indian ba
 Folder file contain all the necessary codes and requirements file in it. They have be structed like:
 
 bank_api/
-
 ├── app/
-│ ├── init.py
-│ ├── main.py
-│ ├── models.py
-│ ├── database.py
-│ ├── graphql_schema.py
+  │ ├── init.py
+  │ ├── main.py
+  │ ├── models.py
+  │ ├── database.py
+  │ ├── graphql_schema.py
 ├── data.db
 ├── requirements.txt
 ├── runtime.txt
