@@ -33,18 +33,17 @@ Folder file contain all the necessary codes and requirements file in it. They ha
 
 bank_api/
 ├── app/
-  │ ├── init.py
-  │ ├── main.py
-  │ ├── models.py
-  │ ├── database.py
-  │ ├── graphql_schema.py
+│ ├── init.py
+│ ├── main.py
+│ ├── models.py
+│ ├── database.py
+│ ├── graphql_schema.py
 ├── data.db
 ├── requirements.txt
 ├── runtime.txt
 ├── .gitignore
 ├── README.md
-
-
+---
 ## Sample GraphQL Query
 
 You can run the following query at `/gql`:
@@ -59,21 +58,13 @@ query {
     }
   }
 }
+---
 🛠Local Development Setup
 1. Set up Virtual Environment
-bash
-Copy
-Edit
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 2. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
-4. Run the API Server
-bash
-Copy
-Edit
+3. Run the API Server
 uvicorn app.main:app --reload
